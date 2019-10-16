@@ -1,20 +1,32 @@
 {
-    "name": "Appointment-Booking-Tool",
-    "version": "0.0.0",
-    "private": true,
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "body-parser": "^1.18.2",
-      "cookie-parser": "^1.4.3",
-      "cors": "^2.8.4",
-      "debug": "^3.1.0",
-      "ejs": "^2.5.7",
-      "express": "^4.16.2",
-      "knex": "^0.13.0",
-      "morgan": "^1.9.0",
-      "pg": "^7.3.0"
-    }
-  }
-  
+  "name": "Appointment-Booking-Tool",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "debug": "^3.1.0",
+    "ejs": "^2.5.7",
+    "express": "^4.17.1",
+    "knex": "^0.19.5",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1"
+  },
+  "main": "knexfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagardner21/Appointment-Booking-Tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagardner21/Appointment-Booking-Tool/issues"
+  },
+  "homepage": "https://github.com/jagardner21/Appointment-Booking-Tool#readme",
+  "description": ""
+}
