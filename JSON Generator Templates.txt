@@ -1,0 +1,26 @@
+Users: 
+
+[
+  '{{repeat(100)}}',
+  {
+    name: '{{firstName() + " " + surname()}}',
+    email: '{{email()}}',
+    password: '{{objectId().slice(7, 15)}}',
+    created_at: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}'
+  }
+]
+
+Appointments: 
+
+[
+  '{{repeat(50)}}',
+  {
+    title: '{{lorem(3, "words")}}',
+    body: '{{lorem(3, "sentences")}}',
+    completed: '{{bool()}}',
+    organizer_id: '{{integer(1, 100)}}',
+    guest_id: '{{integer(1, 100)}}',
+    created_at: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+    updated_at: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}'
+  }
+]
