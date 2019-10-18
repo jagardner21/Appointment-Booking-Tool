@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/api/appointment-booking-tool', index);
+// app.use('/api/appointment-booking-tool', index);
 app.use('/api/appointment-booking-tool', users);
 app.use('/api/appointment-booking-tool', appointments);
 
